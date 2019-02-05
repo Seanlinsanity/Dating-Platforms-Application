@@ -15,10 +15,11 @@ class HomeController: UIViewController {
     
     var cardViewModels: [CardViewModel] = {
         let models: [ProduceCardViewModel] = [
-            User(name: "Anna", age: 25, profession: "Photographer", imageName: "anna"),
+            User(name: "Anna", age: 25, profession: "Photographer", imageNames: ["anna"]),
             Advertiser(title: "讓他們捕捉精彩片刻", brandName: "Apple", posterPhotoName: "appleAd"),
-            User(name: "Jane", age: 25, profession: "Athlete", imageName: "jane"),
-            Advertiser(title: "讓他們捕捉精彩片刻", brandName: "Apple", posterPhotoName: "appleAd")
+            User(name: "Jane", age: 25, profession: "Athlete", imageNames: ["jane"]),
+            Advertiser(title: "讓他們捕捉精彩片刻", brandName: "Apple", posterPhotoName: "appleAd"),
+            User(name: "Gakki", age: 28, profession: "Actress", imageNames: ["gakki", "gakki1", "gakki2"])
         ]
         let viewModels = models.map({ (producer) -> CardViewModel in
             return producer.generateCardViewModel()

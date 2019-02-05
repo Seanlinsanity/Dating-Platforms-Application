@@ -12,12 +12,12 @@ struct User: ProduceCardViewModel {
     let name: String
     let age: Int
     let profession: String
-    let imageName: String
+    let imageNames: [String]
 
     func generateCardViewModel() -> CardViewModel {
         let attributedText = NSMutableAttributedString(string: name, attributes: [.font : UIFont.systemFont(ofSize: 34, weight: .heavy)])
         attributedText.append(NSAttributedString(string: "   \(profession)", attributes: [.font : UIFont.systemFont(ofSize: 24, weight: .regular)]))
         attributedText.append(NSAttributedString(string: "\n\(String(describing: age))", attributes: [.font : UIFont.systemFont(ofSize: 24, weight: .semibold)]))        
-        return CardViewModel(imageName: imageName, attributeString: attributedText, textAlignment: .left)
+        return CardViewModel(imageNames: imageNames, attributeString: attributedText, textAlignment: .left)
     }
 }
