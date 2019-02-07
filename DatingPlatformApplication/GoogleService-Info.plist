@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1079292889548-5foa0l5l41ajbt2td87u0k427pmqa82s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1079292889548-5foa0l5l41ajbt2td87u0k427pmqa82s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwt6zLAp4bSKVJ9JPNXsu_0MD5CRE6FdE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1079292889548</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>seanlin.DatingPlatformApplication</string>
+	<key>PROJECT_ID</key>
+	<string>tinderfirestore-ba3e8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tinderfirestore-ba3e8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1079292889548:ios:bd1071c6fa68263c</string>
+	<key>DATABASE_URL</key>
+	<string>https://tinderfirestore-ba3e8.firebaseio.com</string>
+</dict>
+</plist>
